@@ -104,7 +104,7 @@ body {
     border-right: 11px solid #ffffff;
     border-left: 11px solid transparent; 
     border-bottom: 11px solid transparent;
-    content: '';
+content: '';
     transform: rotate(-45deg);
     left: 240px;
 }
