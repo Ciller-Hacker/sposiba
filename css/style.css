@@ -1,0 +1,146 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 35px;
+}
+
+.header__list {
+    display: flex;
+    max-width: 750px;
+}
+
+.header__items {
+    margin-right: 38px;
+}
+
+.header__list--second {
+    margin-top: 12px;
+}
+
+.header__items--second {
+    margin-right: 39px;
+}
+
+.header__items-link {
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.header__items-link:hover {
+    color: #000000;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.header__mishka {
+    align-items: center;
+    display: flex;
+}
+
+.mishka__link{
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.header__lupa {
+    align-items: center;
+    display: flex;
+}
+
+.header__lupa>img{
+    margin-right: 20px;
+}
+
+.dropdown__mishka{
+    /* display: none; */
+    width: 245px;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 3px 3px 20px 1px rgba(2, 2, 2, 0.5);
+    position: absolute;
+    z-index: 5;
+    top: 80px;
+    left: 797px;
+    background-color: #fff;
+    
+}
+
+.dropdown__mishka::after{
+    position: absolute;
+    z-index: 5;
+    display: block;
+    right: 100%;
+    top: -8px; 
+    width: 5px;
+    height: 5px;
+    border-top: 11px solid #ffffff;
+    border-right: 11px solid #ffffff;
+    border-left: 11px solid transparent; 
+    border-bottom: 11px solid transparent;
+    content: '';
+    transform: rotate(-45deg);
+    left: 240px;
+}
+
+.gorod-vash{
+    font-size: 18px;
+}
+
+.sank-piterburg{
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-green{
+    background: #00D36D;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    padding:5px 20px;
+}
+
+.button-white{
+    border: 1px solid #00D36D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-size: 18px;
+    line-height: 24px;
+    color:#00D36D ;
+}
+
