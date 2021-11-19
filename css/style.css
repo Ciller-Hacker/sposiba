@@ -379,4 +379,101 @@ body {
 .main__link:active {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
-/* comlet */
+
+
+.container__footer {
+
+    background-color: #fff;
+    margin-top: 218px;
+}
+
+.footer__small {
+    opacity: 0.5;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer__nuber {
+    font-size: 32px;
+    line-height: 40px;
+    margin: 2px;
+}
+
+.footer__bank {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+.nubber__and {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer__bank {
+    margin-left: 135px;
+}
+
+.nubber__and {
+    margin-left: 135px;
+}
+
+.footer__section {
+    margin-left: 135px;
+    margin-top: 40px;
+}
+
+.footer__begin {
+    display: flex;
+}
+
+.footer__list {
+    margin-top: 40px;
+    margin-left: 148px;
+    display: flex;
+}
+
+.footer__lists {
+    margin-top: 8px;
+    margin-left: 148px;
+    display: flex;
+}
+
+.footer__link {
+    margin: 0 10px;
+    color: #000;
+}
+
+.footer_img__limk {
+    display: flex;
+}
+
+.footer_iconcs {
+    margin-left: 139px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer__icon {
+    border-radius: 8px;
+}
+
+.footer__playmarker {
+    margin-right: 10px;
+}
+
+.icon__links {
+    margin: 5px;
+}
+
+.icon__content {
+    margin-left: 415px;
+    display: flex;
+}
+
+.footer__block {
+
+    margin-left: 110px;
+    font-size: 14px;
+    line-height: 18px;
+}
